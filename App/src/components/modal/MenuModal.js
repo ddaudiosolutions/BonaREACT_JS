@@ -30,7 +30,7 @@ class MenuModal extends Component {
           <button
             onClick={this.open.bind(this)}
             type="button"
-            className="btn btn-lg btn-before-horbar btn-link border-0 p-0 min-w-auto"
+            className="btn btn-lg  btn-link border-0 p-0 min-w-auto"
             data-toggle="modal"
             data-target="#menu-modal"
           >

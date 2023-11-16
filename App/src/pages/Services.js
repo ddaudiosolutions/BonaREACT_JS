@@ -15,7 +15,7 @@ const Services = () => {
     <Fragment>
       <MetaTags>
         <meta charSet="UTF-8" />
-        <title>Services | Bona - Health & Medical React JS Template</title>
+        <title>Dermathos Mallorca</title>
 
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +32,7 @@ const Services = () => {
       <Header logoColor="dark" />
 
       <main id="main" className="site-main">
-        <PageTitleCommon title="Services" />
+        <PageTitleCommon title="Servicios" />
 
         <div id="page-content" className="spacer p-top-xl">
           <ServicesContent />
