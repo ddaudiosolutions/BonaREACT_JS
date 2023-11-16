@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const ContactsInside = () => {
-    return (
-        <div className="contacts">
-            <div className="contacts-items">
+  return (
+    <div className="contacts">
+      {/* <div className="contacts-items">
                 <div className="contacts-item">
                     <div className="contacts-item-description">
                         <p><a href="mailto:company@domain.com">company@domain.com</a></p>
@@ -33,9 +33,10 @@ const ContactsInside = () => {
                         <h6>Phone</h6>
                     </div>
                 </div>
-            </div>
-        </div>
-    );
+            </div> */}
+      <div className="contacts-items"></div>
+    </div>
+  );
 };
 
 export default ContactsInside;

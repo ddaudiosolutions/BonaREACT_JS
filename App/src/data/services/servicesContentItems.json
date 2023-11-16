@@ -1,26 +1,26 @@
 [
-    {
-        "id": "1",
-        "title": "Laboratory analysis",
-        "link": "/services-inside",
-        "imgSrc": "assets/img/placeholder/780x500.jpg"
-    },
-    {
-        "id": "2",
-        "title": "Cardiology",
-        "link": "/services-inside",
-        "imgSrc": "assets/img/placeholder/780x500.jpg"
-    },
-    {
-        "id": "3",
-        "title": "Neurology",
-        "link": "/services-inside",
-        "imgSrc": "assets/img/placeholder/780x500.jpg"
-    },
-    {
-        "id": "4",
-        "title": "Dental service",
-        "link": "/services-inside",
-        "imgSrc": "assets/img/placeholder/780x500.jpg"
-    }
+  {
+    "id": "1",
+    "title": "Dermatología Estética",
+    "link": "/services-inside",
+    "imgSrc": "assets/img/imagesServices/dermatologia_estetica.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Dermatología médica",
+    "link": "/services-inside",
+    "imgSrc": "assets/img/imagesServices/derma_medica.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Oncología médica",
+    "link": "/services-inside",
+    "imgSrc": "assets/img/imagesServices/oncologia_medica.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Cirugía Oncologica",
+    "link": "/services-inside",
+    "imgSrc": "assets/img/imagesServices/CIRUGIA_ONCOLOGICA.jpg"
+  }
 ]

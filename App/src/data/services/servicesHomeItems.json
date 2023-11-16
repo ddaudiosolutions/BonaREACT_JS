@@ -1,30 +1,56 @@
 [
-    {
-        "id": 1,
-        "title": "Laboratory analysis",
-        "link": "/services-inside",
-        "imgLink": "assets/img/placeholder/780x500.jpg",
-        "imgAlt": "Laboratory analysis"
-    },
-    {
-        "id": 2,
-        "title": "Cardiology",
-        "link": "/services-inside",
-        "imgLink": "assets/img/placeholder/780x500.jpg",
-        "imgAlt": "Cardiology"
-    },
-    {
-        "id": 3,
-        "title": "Neurology",
-        "link": "/services-inside",
-        "imgLink": "assets/img/placeholder/780x500.jpg",
-        "imgAlt": "Neurology"
-    },
-    {
-        "id": 4,
-        "title": "Dental service",
-        "link": "/services-inside",
-        "imgLink": "assets/img/placeholder/780x500.jpg",
-        "imgAlt": "Dental service"
-    }
+  {
+    "id": "1",
+    "title": "Dermatología Estética",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/dermatologia_estetica.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Dermatología médica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/derma_medica.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Oncología médica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/oncologia_medica.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Cirugía Oncologica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/CIRUGIA_ONCOLOGICA.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Dermatología Estética",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/dermatologia_estetica.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Dermatología médica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/derma_medica.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Oncología médica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/oncologia_medica.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Cirugía Oncologica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/CIRUGIA_ONCOLOGICA.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Cirugía Oncologica",
+    "link": "/services-inside",
+    "imgLink": "assets/img/imagesServices/CIRUGIA_ONCOLOGICA.jpg"
+  }
 ]

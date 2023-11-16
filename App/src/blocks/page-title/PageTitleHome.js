@@ -10,11 +10,11 @@ const PageTitleHome = () => {
       <div className="wrapper text-left d-flex">
         <div className="align-self-center w-100">
           <div className="title">
-            <h1 className="large">DERMATHOS</h1>
+            <h1 className="medium">DERMATHOS</h1>
             <hr className="titlehr" />
           </div>
           <div className="title">
-            <h2 className="large">DERMATOLOGIA INTEGRAL</h2>
+            <h3 className="medium">DERMATOLOGIA INTEGRAL</h3>
           </div>
 
           {/* <div className="spacer p-top-lg no-space">

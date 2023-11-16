@@ -7,7 +7,7 @@
               type="rotate"
               dur="1s"
               from="0 50 50"
-              to="360 50 50"
+              to="760 0 50"
               repeatCount="indefinite" />
   </path>
 </svg>
