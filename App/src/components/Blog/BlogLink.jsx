@@ -50,11 +50,17 @@ function BlogLink({ setImagePosts }) {
   }, [blogPosts]);
 
   return (
-    <Link className="nav-link" to="/blog">
-      <h5 className="mt-2" style={{ color: "black" }}>
-        Blog
-      </h5>
-    </Link>
+    <div className="d-flex aligns-items-center">
+      <div className="links">
+        <Link className="links-items" to="/blog">
+          <div className="links-items align-self-center">
+            <btn href="#" className="btn btn-lg btn-link ">
+              Blog
+            </btn>
+          </div>
+        </Link>
+      </div>
+    </div>
   );
 }
 
