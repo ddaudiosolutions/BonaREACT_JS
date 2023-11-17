@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import ServicesContentItemsData from "../../data/services/servicesContentItems";
+import { Link } from "react-router-dom";
 
 const ServicesContent = () => {
   let columnSize = 3; // Tamaño inicial de la columna (col-3)
@@ -17,15 +18,15 @@ const ServicesContent = () => {
         <Row className="gutter-width-sm with-pb-sm services-items justify-content-center">
           {ServicesContentItemsData.map((item, key) => (
             <Col key={key} xs={12} sm={columnSize} className="text-center mb-4">
-              <a
+              <Link
                 title={item.title}
                 className="services-item"
-                href={process.env.PUBLIC_URL + item.link}
+                to={{ pathname: process.env.PUBLIC_URL + item.link, state: { serviceData: item } }}
               >
                 <div className="services-item-content">
                   <h3 className="services-item-t-head">{item.title}</h3>
                   <span className="btn btn-lg btn-before-horbar btn-link border-0 p-0 min-w-auto link-no-space">
-                    Read more
+                    Leer más
                   </span>
                 </div>
                 <div className="img object-fit">
@@ -33,8 +34,8 @@ const ServicesContent = () => {
                     <img className="img-fluid" src={item.imgSrc} alt={item.title} />
                   </div>
                 </div>
-                <div className="img-bg-color"></div>
-              </a>
+                {/* <div className="img-bg-color"></div> */}
+              </Link>
             </Col>
           ))}
         </Row>

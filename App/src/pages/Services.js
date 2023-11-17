@@ -30,10 +30,8 @@ const Services = () => {
       {/*  <Loading /> */}
 
       <Header logoColor="dark" />
-
       <main id="main" className="site-main">
         <PageTitleCommon title="Servicios" />
-
         <div id="page-content" className="spacer p-top-xl">
           <ServicesContent />
         </div>

@@ -12,16 +12,18 @@ import PageTitleCommon from "../blocks/page-title/PageTitleCommon";
 
 import BackToServices from "../components/button/BackToServices";
 
-const ServicesInside = () => {
+const ServicesInside = (props) => {
   document.body.classList.add("single");
   document.body.classList.add("single-adveits_services");
+  console.log(props.location.state.serviceData);
+
+  const { id, title, imgSrc, servicios } = props.location.state.serviceData;
 
   return (
     <Fragment>
       <MetaTags>
         <meta charSet="UTF-8" />
         <title>Dermathos Mallorca</title>
-
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
@@ -37,21 +39,21 @@ const ServicesInside = () => {
       <Header logoColor="dark" />
 
       <main id="main" className="site-main">
-        <PageTitleCommon title="Cardiology" />
+        <PageTitleCommon title={title} />
 
-        <div id="page-content" className="spacer p-top-xl">
-          <div className="content">
-            <div id="single">
-              <div id="single-content">
-                <div id="img" className="block wrapper-normal">
-                  <div className="wrapper">
-                    <ServiceInsideImg />
+        <div id="" className="mt-4">
+          <div className="">
+            <div id="">
+              <div id="">
+                <div id="img" className="">
+                  <div className="">
+                    <ServiceInsideImg img={imgSrc} />
                   </div>
                 </div>
 
-                <ServiceInsideDescription />
+                <ServiceInsideDescription servicios={servicios} />
 
-                <ServiceInsidePriceLists />
+                {/* <ServiceInsidePriceLists /> */}
 
                 <BackToServices />
               </div>

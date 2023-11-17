@@ -3,13 +3,85 @@
     "id": "1",
     "title": "Dermatología Estética",
     "link": "/services-inside",
-    "imgSrc": "assets/img/imagesServices/dermatologia_estetica.jpg"
+    "imgSrc": "assets/img/imagesServices/dermatologia_estetica.jpg",
+    "servicios": [
+      {
+        "titulo": "Rejuvenecimiento Facial",
+        "desc": "Ácido hialuronico"
+      },
+      {
+        "titulo": "Manchas faciales",
+        "desc": "Plataforma làser/IPL (Nordlys)"
+      },
+      {
+        "titulo": "Arrugas de expresión",
+        "desc": ""
+      },
+      {
+        "titulo": "Acné y rosácea",
+        "desc": "Toxina botulínica"
+      },
+      {
+        "titulo": "Rosácea y rojeces",
+        "desc": "Plataforma làser/IPL (Nordlys)"
+      },
+      {
+        "titulo": "Melasma",
+        "desc": "Micropunción (Nanopore)"
+      },
+      {
+        "titulo": "Acné",
+        "desc": "Peelings químicos"
+      },
+      {
+        "titulo": "Eliminación de puntos rubies y queratosis seborreicas",
+        "desc": "Láser CO2"
+      },
+      {
+        "titulo": "Depilación Médica",
+        "desc": "Plataforma làser/IPL (Nordlys)"
+      },
+      {
+        "titulo": "Cicatrices y estrías",
+        "desc": "Láser fraccionado CO2/1550"
+      },
+      {
+        "titulo": "Lóbulo de oreja rasgado",
+        "desc": "Cierre de piercings"
+      },
+      {
+        "titulo": "Blefaroplastia",
+        "desc": ""
+      }
+    ]
   },
   {
     "id": "2",
     "title": "Dermatología médica",
     "link": "/services-inside",
-    "imgSrc": "assets/img/imagesServices/derma_medica.jpg"
+    "imgSrc": "assets/img/imagesServices/derma_medica.jpg",
+    "servicios": [
+      {
+        "titulo": "Dermatologia general",
+        "desc": ""
+      },
+      {
+        "titulo": "Dermatologia pediátrica",
+        "desc": ""
+      },
+      {
+        "titulo": "Enfermedades de transmisión sexual",
+        "desc": ""
+      },
+      {
+        "titulo": "Diagnóstico precoz cáncer de piel",
+        "desc": ""
+      },
+      {
+        "titulo": "Cuidados de la piel sana",
+        "desc": ""
+      }
+    ]
   },
   {
     "id": "3",
