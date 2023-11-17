@@ -33,7 +33,6 @@ const Home = () => {
         <meta name="google" content="notranslate" />
         <meta name="format-detection" content="telephone=no" />
       </MetaTags>
-
       <Loading />
 
       <Header logoColor="light" />

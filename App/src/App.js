@@ -11,6 +11,7 @@ import Services from "./pages/Services";
 import ServicesInside from "./pages/ServicesInside";
 import page404 from "./pages/404";
 import UserInterface from "./pages/UserInterface";
+import NewsBlog from "./blocks/news/NewsBlog";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route exact path={`${process.env.PUBLIC_URL + "/"}`} component={Home} />
         <Route exact path={`${process.env.PUBLIC_URL + "/about-us"}`} component={About} />
         <Route exact path={`${process.env.PUBLIC_URL + "/contacts"}`} component={Contacts} />
-        <Route exact path={`${process.env.PUBLIC_URL + "/news"}`} component={News} />
+        {/*  <Route exact path={`${process.env.PUBLIC_URL + "/news"}`} component={News} /> */}
         <Route exact path={`${process.env.PUBLIC_URL + "/gallery"}`} component={Gallery} />
         <Route
           exact
@@ -42,6 +43,7 @@ function App() {
           path={`${process.env.PUBLIC_URL + "/services-inside"}`}
           component={ServicesInside}
         />
+        <Route exact path="/blog" component={NewsBlog} />
         <Route exact component={page404} />
       </Switch>
     </Router>

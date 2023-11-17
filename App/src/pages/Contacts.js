@@ -30,7 +30,7 @@ const Contacts = () => {
         <meta name="format-detection" content="telephone=no" />
       </MetaTags>
 
-      <Loading />
+      {/* <Loading /> */}
 
       <Header logoColor="dark" />
 

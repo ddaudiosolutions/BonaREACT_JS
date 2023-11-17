@@ -4,6 +4,7 @@ import SearchModal from "../../components/modal/SearchModal";
 import MenuModal from "../../components/modal/MenuModal";
 import Actions from "../actions/Actions";
 import HeaderLinkNav from "./HeaderLinkNav";
+import BlogLink from "../../components/Blog/BlogLink";
 
 const Header = ({ logoColor }) => {
   return (
@@ -17,6 +18,7 @@ const Header = ({ logoColor }) => {
             <HeaderLinkNav title={"Servicios"} link={"/services"} />
             <HeaderLinkNav title={"Dermatología Estética"} link={"/services"} />
             <HeaderLinkNav title={"Dermatología Médica"} link={"/services"} />
+            <BlogLink />
 
             <div className="d-flex align-items-center">
               {/* <SearchModal /> */}

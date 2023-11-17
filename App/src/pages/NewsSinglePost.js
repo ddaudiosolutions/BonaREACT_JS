@@ -1,79 +1,79 @@
-import React, { Fragment } from 'react';
-import MetaTags from 'react-meta-tags';
+import React, { Fragment } from "react";
+import MetaTags from "react-meta-tags";
 
-import Loading from '../blocks/loading/Loading';
-import Header from '../blocks/header/Header';
-import Footer from '../blocks/footer/Footer';
+import Loading from "../blocks/loading/Loading";
+import Header from "../blocks/header/Header";
+import Footer from "../blocks/footer/Footer";
 
-import PageTitleCommon from '../blocks/page-title/PageTitleCommon';
-import NewsSingleImg from '../blocks/news/NewsSingleImg';
-import NewsMeta from '../blocks/news/NewsMeta';
-import NewsTitle from '../blocks/news/NewsTitle';
-import NewsDescription from '../blocks/news/NewsDescription';
-import NewsTags from '../blocks/news/NewsTags';
-import NewsComments from '../blocks/news/NewsComments';
-import Widget from '../blocks/widget/Widget';
+import PageTitleCommon from "../blocks/page-title/PageTitleCommon";
+import NewsSingleImg from "../blocks/news/NewsSingleImg";
+import NewsMeta from "../blocks/news/NewsMeta";
+import NewsTitle from "../blocks/news/NewsTitle";
+import NewsDescription from "../blocks/news/NewsDescription";
+import NewsTags from "../blocks/news/NewsTags";
+import NewsComments from "../blocks/news/NewsComments";
+import Widget from "../blocks/widget/Widget";
+import { useSelector } from "react-redux";
 
 const NewsSinglePost = () => {
-    document.body.classList.add( 'single-post' );
+  document.body.classList.add("single-post");
+  const singlePost = useSelector((state) => state.postsBlog.singlePost);
+  const imageSinglePost = useSelector((state) => state.postsBlog.imageSinglePost);
+  return (
+    <Fragment>
+      <MetaTags>
+        <meta charSet="UTF-8" />
+        <title>News single post | Bona - Health & Medical React JS Template</title>
 
-    return (
-        <Fragment>
-            <MetaTags>
-                <meta charSet="UTF-8" />
-                <title>News single post | Bona - Health & Medical React JS Template</title>
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="robots" content="index, follow, noodp" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="notranslate" />
+        <meta name="format-detection" content="telephone=no" />
+      </MetaTags>
 
-                <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="description" content="" />
-                <meta name="keywords" content="" />
-                <meta name="robots" content="index, follow, noodp" />
-                <meta name="googlebot" content="index, follow" />
-                <meta name="google" content="notranslate" />
-                <meta name="format-detection" content="telephone=no" />
-            </MetaTags>
+      {/* <Loading /> */}
 
-            <Loading />
+      <Header logoColor="dark" />
 
-            <Header logoColor="dark" />
+      <main id="main" className="site-main">
+        <PageTitleCommon title="News" />
 
-            <main id="main" className="site-main">
-                <PageTitleCommon title="News" />
+        <div id="page-content" className="spacer p-top-xl">
+          <div className="wrapper">
+            <div className="content">
+              <div id="single">
+                <div className="row gutter-width-lg">
+                  <div className="col-xl-8 col-lg-8 col-md-12 single-content">
+                    <NewsSingleImg image={imageSinglePost} />
 
-                <div id="page-content" className="spacer p-top-xl">
-                    <div className="wrapper">
-                        <div className="content">
-                            <div id="single">
-                                <div className="row gutter-width-lg">
-                                    <div className="col-xl-8 col-lg-8 col-md-12 single-content">
+                    <NewsMeta />
 
-                                        <NewsSingleImg />
+                    <NewsTitle title={singlePost.title.rendered} />
 
-                                        <NewsMeta />
+                    <NewsDescription content={singlePost.content.rendered} />
 
-                                        <NewsTitle />
+                    <NewsTags />
 
-                                        <NewsDescription />
+                    <NewsComments />
+                  </div>
 
-                                        <NewsTags />
-
-                                        <NewsComments />
-                                    </div>
-
-                                    <div className="col-xl-4 col-lg-4 col-md-12">
-                                        <Widget />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                
-                    </div>
+                  <div className="col-xl-4 col-lg-4 col-md-12">
+                    <Widget />
+                  </div>
                 </div>
-            </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
 
-            <Footer />
-        </Fragment>
-    );
+      <Footer />
+    </Fragment>
+  );
 };
 
 export default NewsSinglePost;
