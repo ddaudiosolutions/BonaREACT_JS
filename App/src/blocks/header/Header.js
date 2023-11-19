@@ -8,21 +8,17 @@ import BlogLink from "../../components/Blog/BlogLink";
 
 const Header = ({ logoColor }) => {
   return (
-    <header id="header" className="site-header">
+    <header id="header" className="mb-4">
       <div className="wrapper">
-        <div className="header-content d-flex justify-content-end">
-          <div className="header-center align-self-center">
+        <div className="  ">
+          <div className=" d-flex justify-content-around">
             <HeaderLogo logoColor={logoColor} />
-          </div>
-          <div className="header-right d-flex justify-content-end  ms-auto">
             <HeaderLinkNav title={"Servicios"} link={"/services"} />
-            <HeaderLinkNav title={"Dermatología Estética"} link={"/services"} />
-            <HeaderLinkNav title={"Dermatología Médica"} link={"/services"} />
+            {/* <HeaderLinkNav title={"Dermatología Estética"} link={"/services"} />
+            <HeaderLinkNav title={"Dermatología Médica"} link={"/services"} /> */}
             <BlogLink />
-
             <div className="d-flex align-items-center">
               {/* <SearchModal /> */}
-
               <MenuModal />
             </div>
 

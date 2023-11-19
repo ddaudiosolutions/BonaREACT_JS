@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
-    height: 35vh;
+    height: 20vh;
     min-height: 20vh;
     max-height: 860px;
 
@@ -113,9 +113,9 @@
 }
 
 .page-title-bg-color {
-  background-color: $body_main_element_secondary_color;
+  /*  background-color: $body_main_element_secondary_color */
   position: absolute;
-  opacity: 0.31;
+  /*  opacity: 0.91; */
   width: 100%;
   height: 100%;
   top: 0;

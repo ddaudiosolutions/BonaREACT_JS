@@ -21,8 +21,8 @@
   }
 }
 
-$header_link_space: 1.895rem;
-$header_actions_space: 7.158rem;
+$header_link_space: 0.895rem;
+$header_actions_space: 4.158rem;
 
 .site-header,
 .modal-header {
@@ -45,7 +45,7 @@ $header_actions_space: 7.158rem;
             }
 
             > * {
-              text-align: left;
+              text-align: center;
             }
           }
         }
@@ -117,8 +117,8 @@ $header_actions_space: 7.158rem;
     .actions {
       @extend .d-flex;
       @extend .align-items-center;
-      padding-left: $header_actions_space - $header_link_space;
-
+      /*  padding-left: $header_actions_space - $header_link_space;
+ */
       @media #{$media_xxl} {
         padding-left: $header_actions_space * 0.5 - $header_link_space * 0.5;
       }
@@ -137,7 +137,7 @@ $header_actions_space: 7.158rem;
       }
 
       .actions-items {
-        height: 1rem;
+        height: 0.6rem;
         margin-right: 0;
 
         @media #{$media_md} {
@@ -150,7 +150,7 @@ $header_actions_space: 7.158rem;
           background-color: $header_actions_background_color;
           color: $header_actions_color;
           width: 8.421rem;
-          height: 1rem;
+          height: 0.7rem;
           text-align: center;
 
           @media #{$media_md} {
@@ -256,9 +256,8 @@ $header_actions_space: 7.158rem;
     &.site-header {
       background-color: $header_absolute_background_color;
       position: absolute;
-      width: 100%;
       z-index: 1040;
-      min-width: 320px;
+      min-width: 60px;
 
       // Color
       color: $header_absolute_color;
@@ -351,7 +350,7 @@ body {
 
         > .content {
           > .clearfix {
-            padding-top: 8.421rem;
+            padding-top: 0.421rem;
 
             > section:first-child,
             > div:first-child,

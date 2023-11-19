@@ -87,12 +87,24 @@
     "id": "3",
     "title": "Oncología médica",
     "link": "/services-inside",
-    "imgSrc": "assets/img/imagesServices/oncologia_medica.jpg"
-  },
-  {
-    "id": "4",
-    "title": "Cirugía Oncologica",
-    "link": "/services-inside",
-    "imgSrc": "assets/img/imagesServices/CIRUGIA_ONCOLOGICA.jpg"
+    "imgSrc": "assets/img/imagesServices/oncologia_medica.jpg",
+    "servicios": [
+      {
+        "titulo": "Cirugía oncológica mínimamente invasiva (cirugía de Mohs)",
+        "desc": ""
+      },
+      {
+        "titulo": "Cirugía ganglio centinela",
+        "desc": ""
+      },
+      {
+        "titulo": "Cirugía del cáncer de piel",
+        "desc": ""
+      },
+      {
+        "titulo": "Cirugía hidrosadenitis",
+        "desc": ""
+      }
+    ]
   }
 ]

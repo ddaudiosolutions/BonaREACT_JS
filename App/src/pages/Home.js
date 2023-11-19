@@ -35,28 +35,29 @@ const Home = () => {
       <Loading />
 
       <Header logoColor="light" />
+      <div className="wrapper">
+        <main id="main" className="site-main content-no-spacing spacer p-top-xl">
+          <div className="content">
+            <div className="clearfix">
+              <PageTitleHome />
 
-      <main id="main" className="site-main content-no-spacing">
-        <div className="content">
-          <div className="clearfix">
-            <PageTitleHome />
+              <AboutUs />
 
-            <AboutUs />
+              {/* <ServicesHome /> */}
 
-            {/* <ServicesHome /> */}
+              {/* <AboutReviews /> */}
 
-            {/* <AboutReviews /> */}
+              <AboutOurDoctors />
 
-            <AboutOurDoctors />
+              <HomeImg />
 
-            <HomeImg />
+              <NewsHome />
 
-            <NewsHome />
-
-            <ContactUs />
+              <ContactUs />
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
 
       <Footer />
     </Fragment>
